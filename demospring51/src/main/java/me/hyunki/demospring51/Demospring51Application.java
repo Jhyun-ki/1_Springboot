@@ -8,6 +8,8 @@ import org.springframework.context.annotation.PropertySource;
 import org.springframework.context.support.GenericApplicationContext;
 
 @SpringBootApplication
-@PropertySource("classpath:/app.properties")
 public class Demospring51Application {
+    public static void main(String[] args) {
+        SpringApplication.run(Demospring51Application.class, args);
+    }
 }
