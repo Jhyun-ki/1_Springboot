@@ -9,3 +9,4 @@ import org.springframework.context.support.GenericApplicationContext;
 @SpringBootApplication
 public class Demospring51Application {
 }
+]
