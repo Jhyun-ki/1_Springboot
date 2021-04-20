@@ -13,4 +13,3 @@ public class Demospring51Application {
         SpringApplication.run(Demospring51Application.class, args);
     }
 }
-]
