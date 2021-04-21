@@ -9,12 +9,11 @@ import org.springframework.stereotype.Component;
 public class AppRunner implements ApplicationRunner {
 
     @Autowired
-    EventService eventService; // Interface가 있는 경우에는 Interface다 타입으로 주입 받는게 가장 좋
+    EventService eventService;
 
     @Override
     public void run(ApplicationArguments args) throws Exception {
-        eventService.createEvent();
-        eventService.publishEvent();
-        eventService.deleteEvent();
+        //인텔리제이에서 null 안된다고 경고 메세지 뜨게끔함
+        eventService.createEvent(null);
     }
 }
